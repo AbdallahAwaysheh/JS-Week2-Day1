@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // task 1
+
+        // localStorage.setItem("text","Hello, World!")
+        // document.write(localStorage.getItem("text"));
+
+
+        // task 2
+
+        // localStorage.setItem("number",20);
+        // document.write(localStorage.getItem("number"));
+
+
+
+        // task 3
+
+        // localStorage.setItem("boolean",true);
+        // document.write(localStorage.getItem("boolean"));
+
+
+        // task 4
+
+        // localStorage.setItem("boolean",true);
+        // localStorage.removeItem("boolean")
+
+
+        // task 5
+        // localStorage.clear()
+
+        // task 6
+
+        // if (localStorage.getItem("car")==null){
+        //     document.write("Ther is no item named car")
+        // }else if (localStorage.getItem("car")!=null){
+        //     document.write(localStorage.getItem("car"))
+        // }
+
+        // task 7
+        // let arr = [1,2,3,4];
+        // localStorage.setItem("array", JSON.stringify(arr));
+        // document.write(localStorage.getItem("array"))
+
+        // task 8
+
+        // let obj = {
+        //     name: "abdallah",
+        //     age: 20,
+        //     nationalety: "Jordanian"
+        // };
+        // localStorage.setItem("object", JSON.stringify(obj));
+        // document.write(localStorage.getItem("object"));
+
+        //task 9
+        localStorage.setItem("name1","Abdallah")
+        localStorage.setItem("name2","ahmad")
+        localStorage.setItem("name3","rashed")
+        localStorage.setItem("name4","waleed")
+        localStorage.setItem("name5","samy")
+        for(let i =1;i<=5;i++){
+            document.write(localStorage.getItem(`name${i}`)+" ");
+
+        }
+        
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
